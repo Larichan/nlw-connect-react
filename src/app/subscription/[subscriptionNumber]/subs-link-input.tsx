@@ -1,8 +1,8 @@
 'use client'
 
 import { Link, Copy } from "lucide-react";
-import IconButton from "../components/IconButton";
-import { InputRoot, InputIcon, InputField } from "../components/Input";
+import IconButton from "../../components/IconButton";
+import { InputRoot, InputIcon, InputField } from "../../components/Input";
 import { useState } from "react";
 import PopupBaloon from "./popup-ballon";
 
@@ -10,7 +10,7 @@ interface SubsLinkInputProps {
     subscriptionLink: string;
 }
 
-export function SubsLinkInput({ subscriptionLink } : SubsLinkInputProps) {
+export function SubsLinkInput({ subscriptionLink }: SubsLinkInputProps) {
 
     const [showPopup, setShowPopup] = useState(false);
 
